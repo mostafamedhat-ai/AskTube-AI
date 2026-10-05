@@ -1,0 +1,22 @@
+# Web Framework & Server
+fastapi
+uvicorn[standard]
+pydantic>=2.0.0
+streamlit
+requests
+
+# YouTube & AI / LangChain
+youtube-transcript-api
+langchain-core
+langchain-community
+langchain-google-genai
+
+# Vector Search & Embeddings
+faiss-cpu
+sentence-transformers
+transformers
+huggingface_hub
+
+# Utilities
+pyngrok
+python-dotenv

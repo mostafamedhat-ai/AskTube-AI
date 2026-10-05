@@ -1,0 +1,45 @@
+# Secrets / local config (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# ML / model caches and indexes (if you ever store them locally)
+.cache/
+*.faiss
+*.pkl
+models/
+
+# Logs
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+.streamlit/secrets.toml.*
